@@ -99,3 +99,33 @@
   background-color: #873abb;
   border-color: #873abb;
 }
+
+@media screen and (max-width: 600px) {
+  .table thead {
+    display: none;
+  }
+  .table td {
+    display: flex;
+  }
+  
+  .table td::before {
+    content: attr(label);
+    font-weight: bold;
+    width: 120px;
+    min-width: 120px;
+  }
+
+  .tableEdit thead {
+    display: none;
+  }
+  .tableEdit td {
+    display: flex;
+  }
+  
+  .tableEdit td::before {
+    content: attr(label);
+    font-weight: bold;
+    width: 120px;
+    min-width: 120px;
+  }
+}
