@@ -1,0 +1,9 @@
+.table{
+    margin: 3rem auto;
+    max-width: 800px;
+    border-radius: 6px;
+    background-color: #38015c;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    align-content: center;
+  }

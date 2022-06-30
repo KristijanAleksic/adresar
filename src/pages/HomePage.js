@@ -1,7 +1,13 @@
-import StartingPageContent from '../components/StartingPage/StartingPageContent';
+
+import Table from "../components/Table/Table";
+import { useLocation } from "react-router-dom";
 
 const HomePage = () => {
-  return <StartingPageContent />;
-};
+  const location = useLocation();
+  console.log(location);
+  return (
+    <Table></Table>
+  );
+  };
 
 export default HomePage;

@@ -36,11 +36,18 @@
   padding: 0.25rem;
 }
 
+.control p{
+  color: white;
+}
+
 .actions {
   margin-top: 1.5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.actions p{
+  color: white;
 }
 
 .actions button {

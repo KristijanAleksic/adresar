@@ -1,0 +1,48 @@
+.card{
+    font: inherit;
+    margin: 3rem auto;
+    max-width: 400px;
+    border-radius: 6px;
+    background-color: #38015c;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    align-content: center;
+    color: white;
+    overflow: auto;
+  }
+
+  .cardInner{
+    background-color: white;
+    font-size: 1.2rem;
+    padding: 0.1rem;
+    border-radius: 6px;
+    color: black;
+  }
+
+  .cardInner ul{
+    list-style: none;
+  }
+
+
+  .card button {
+    font: inherit;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem 1.5rem;
+    margin: 1rem 0rem 0rem 0rem;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 48%;
+
+  }
+  
+  .card a:hover {
+    color: #c291e2;
+  }
+  
+  .card button:hover {
+    background-color: #c291e2;
+    color: #38015c;
+  }

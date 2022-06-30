@@ -1,4 +1,4 @@
-import { useState, useRef, useContext } from "react";
+import { useState, useContext } from "react";
 import { useHistory } from "react-router-dom";
 
 import AuthContext from "../../store/auth-context";
@@ -110,7 +110,7 @@ const AuthForm = () => {
             } else {
               errorMessage = "This e-mail does not exist";
             }
-
+            
             throw new Error(errorMessage);
           });
         }
@@ -146,7 +146,7 @@ const AuthForm = () => {
           />
           {emailInputHasError && (
             <p className={classes["error-msg"]}>
-              Please enter a valid email address
+              Please enter a valid email address!
             </p>
           )}
         </div>
@@ -164,7 +164,7 @@ const AuthForm = () => {
           {passwordInputHasError && (
             <p>
               Password must be at least 6 characters long and contain at least
-              one number and one special character
+              one number and one special character!
             </p>
           )}
         </div>
